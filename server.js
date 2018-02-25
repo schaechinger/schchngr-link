@@ -25,5 +25,5 @@ app.post('/_add', routes.add);
 app.post('*', routes.error400);
 
 app.listen(app.get('port'), () => {
-  pino.info(`shortkey service running on port ${app.get('port')}`);
+  pino.debug(`shortkey service running on port ${app.get('port')}`);
 });
