@@ -6,6 +6,8 @@
 
 'use strict';
 
+const config = require('config');
+
 const Link = require('../lib/Link'),
   error400 = require('./error400');
 
@@ -18,9 +20,10 @@ const link = Link.getInstance();
  * @param {Response} res 
  */
 module.exports = (req, res) => {
-  const url = req.body.url;
+  const url = req.body.url,
+    secret = req.body.secret;
 
-  if (url) {
+  if (url && config.get('secret') === secret) {
     const key = link.store(url);
 
     if (key) {

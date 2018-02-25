@@ -58,3 +58,4 @@ typings/
 .env
 
 data/
+/config/production.json
