@@ -1,7 +1,7 @@
 {
   "name": "shortkey",
   "version": "1.0.0",
-  "description": "Short link system for schchn.gr",
+  "description": "Minimal short link system for schchn.gr",
   "main": "server.js",
   "repository": "https://github.com/schaechinger/shortkey",
   "author": "Manuel Schächinger <manuel@schaechinger.com>",
