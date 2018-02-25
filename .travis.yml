@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "lts/*"
+  - "lts/boron"
+before_install:
+  - npm i -g npm@latest
+  - npm i -g yarn@latest
+script:
+  - yarn test -R spec

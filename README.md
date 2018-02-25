@@ -1,2 +1,2 @@
-# schchngr-link
+# shortkey
 Short link system for schchn.gr

@@ -1,0 +1,21 @@
+{
+  "name": "shortkey",
+  "version": "1.0.0",
+  "description": "Short link system for schchn.gr",
+  "main": "server.js",
+  "repository": "https://github.com/schaechinger/shortkey",
+  "author": "Manuel Schächinger <manuel@schaechinger.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "config": "1.29.4",
+    "express": "4.16.2",
+    "pino": "4.11.0",
+    "require-dir": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "5.0.1",
+    "should": "13.2.1",
+    "sinon": "4.4.1"
+  }
+}
